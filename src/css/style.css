@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:
+    linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+    linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+    linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+    linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+    linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-color: #131313;
+    background-size: 20px 20px;
+}
+
+.titulo {
+    font-family: "Rubik";
+    color: rgb(214, 212, 212);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.foto img{
+    border-radius: 50%;
+}
+
+.foto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icone {
+    border-radius: 50%;  
+}
+
+.icone:hover {
+    padding: 2px;   
+}
+
+.link  {
+    padding: 2px 10px;
+}
+.link:hover {
+    background-color: rgba(70, 69, 69, 0.3);
+    border-radius: 6px;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-height: 100vh;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#contatos {
+    font-size: 20px;
+}
+    
+.subtitulo {
+    color: rgb(214, 212, 212);
+    font-family: "Rubik";
+    font-size: 30px;
+}
+
+.sobre-mim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descricao {
+    font-family: 'Rubik';
+    max-width: 500px;
+    color:  rgb(230, 227, 227);
+    text-align: center;
+    word-spacing: 5px;
+    margin: 15px;
+}
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slides {
+    border-radius: 6px;
+    list-style: none;
+    border: 3px double rgb(175, 166, 166);
+    min-width: 12rem;
+    max-height: 16rem;
+    inline-size: 100%;
+    object-fit: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+
+.slides:hover {
+    background:rgba(70, 69, 69, 0.3);
+    cursor: pointer;    
+}
+
+.conteiner {
+        
+    display: flex;
+    width: 250px;
+    height:18rem;
+    margin: 2rem auto 0 auto;
+    gap: 10px;
+    overflow-x: auto;
+}
+
+.em-breve {
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-size: 50px;
+    color: rgb(30, 119, 53);
+}
+
+.em-breve:hover {
+    font-size: 60px;
+    color: rgb(107, 240, 50);
+}
+
+.curriculo {
+    border-radius: 6px;
+    padding: 8px 12px;    
+}
+
+.curriculo:hover {
+    background-color:rgba(70, 69, 69, 0.3);
+}
+
+div a {
+    font-size: 20px;
+    font-family: 'Rubik';;
+    text-decoration: none;
+    color: rgb(214, 212, 212);
+}
+
+div a:hover {
+    color: aliceblue;
+}

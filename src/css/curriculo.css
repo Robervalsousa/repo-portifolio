@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pdf {
+    display: flex;
+    flex-direction: column;
+    align-items: last baseline;
+}
+
+.botao { 
+    padding: 8px;
+    border-radius: 5px;
+    margin: 10px 30% 0;
+    background-color: rgb(17, 133, 133);
+    color: aliceblue;
+}
+
+.botao:hover {
+    background-color: rgb(133, 136, 136);
+}
+
+.title {
+    font-size: 40px;
+    font-family: Rubik;
+    color: rgb(17, 133, 133);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+main {
+    background-image: linear-gradient( rgb(222, 236, 236),  aliceblue );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabecalho {
+    font-family: Rubik;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+p {
+    word-spacing: 5px;
+}
+
+.email {
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(17, 133, 133);
+}
+
+.email:hover {
+    color: rgb(133, 136, 136);
+}
+
+#conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+li {
+    font-family: Rubik;
+    font-size: 18px;
+    color: rgb(120, 122, 122);
+
+}
+
+span {
+    color: rgb(133, 136, 136);
+    text-transform: capitalize;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-family: Rubik;
+}
+
+.portifi {
+    list-style: none;
+    padding: 10px;
+}
+
+.portifolio {
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgb(17, 133, 133);
+    color: aliceblue;
+}
+
+.portifolio:hover {
+    background-color: rgb(133, 136, 136);
+}
+
+.link {
+    list-style: none;
+    padding: 2px;
+    
+}
+.link:hover {
+    background: rgb(17, 133, 133);
+    padding: 2PX 10PX;
+    border-radius: 5px;
+}
+
+.icone {
+    border-radius: 50%;
+}
