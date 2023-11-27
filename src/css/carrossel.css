@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    position: relative;
+    padding: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.gallery-wrapper {
+    overflow-x: auto;
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+}
+
+.arrow-left,
+.arrow-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 250px;
+    width: 16px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(to left, transparent 0%, rgb(233, 229, 229) 200%);
+    opacity: 0.1;
+    transition: all 600ms ease-in-out;
+}
+
+.arrow-right {
+    left: auto;
+    right: 0;
+    background: linear-gradient(to right, transparent 0%, rgb(233, 229, 229) 200%);
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+    opacity: 1;
+    color: rgb(255, 248, 248);
+    
+} 
+.arrow-right:hover {
+    background: linear-gradient(to right, transparent 0%, rgb(233, 229, 229) 200%);
+}
+
+
+.item {
+    width: 200px;
+    height: 250px;
+    flex-shrink: 0;
+    opacity: 0.6;
+    transition: all 600ms ease-in-out;
+}
+
+.current-item {
+    opacity: 1;
+    
+}
+
+.gallery-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+#em-breve {
+    border: solid 1px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-size: 50px;
+    color: rgb(63, 85, 54);
+}
+
+#em-breve:hover {
+    font-size: 60px;
+    color: rgb(107, 240, 50);
+    border: solid 2px;
+}
+

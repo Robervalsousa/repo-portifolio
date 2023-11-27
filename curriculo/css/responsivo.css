@@ -1,0 +1,7 @@
+@media (min-width: 360px) {
+    main .objetivo {
+        display: flex;
+        flex-direction: column;
+        text-align: center;    
+    } 
+    }

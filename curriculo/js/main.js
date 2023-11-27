@@ -11,4 +11,5 @@ btnGenerate.addEventListener("click", () => {
     }
 
     html2pdf().set(options).from(conteudo).save();
-})
+});
+
